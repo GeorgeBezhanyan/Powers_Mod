@@ -1,29 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "powersmod",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Powers Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "E_M_t_O_o_C",
+    "Gerg_Ops"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT License",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.fabricmc.example.ExampleMod"
+    ],
+    "client": [
+      "net.fabricmc.example.PowersModClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "powersmod.mixins.json"
   ],
 
   "depends": {
