@@ -1,8 +1,9 @@
 package net.fabricmc.example;
+import net.fabricmc.api.ClientModInitializer;
 
-import net.fabricmc.api.ClientModInitilizer
-
-public class TutorialModClient implements ClientModInitilizer {
+public class PowersModClient implements ClientModInitializer {
     @Override
-    public void onInitializeClient()
+    public void onInitializeClient() {
+
+    }
 }
