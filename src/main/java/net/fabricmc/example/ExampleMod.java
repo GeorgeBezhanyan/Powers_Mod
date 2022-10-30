@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 public class ExampleMod implements ModInitializer {
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
-	//go
+	//gog
 	@Override
 	public void onInitialize() {
 
